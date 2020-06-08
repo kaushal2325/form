@@ -18,6 +18,22 @@ document.getElementById('e-next').addEventListener('click',function(){
 
 });
 
+
+document.getElementById('back-1').addEventListener('click',function(){
+document.getElementById('about-yourself-content').classList.add('show-me');
+document.getElementById('education').classList.remove('show-me');
+document.querySelector('.table').classList.remove('show-me');
+document.getElementById('address-content').classList.remove('show-me');
+});
+
+
+document.getElementById('back-2').addEventListener('click',function(){
+document.getElementById('about-yourself-content').classList.remove('show-me');
+document.getElementById('education').classList.remove('show-me');
+document.querySelector('.table').classList.remove('show-me');
+document.getElementById('address-content').classList.add('show-me');
+});
+
 document.getElementById('he-next').addEventListener('click',function(){
 
     document.getElementById('show').classList.add('show-me');
