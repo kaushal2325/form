@@ -24,7 +24,7 @@ document.getElementById('e-next').addEventListener('click',function(){
     document.getElementById('nav-item-3').classList.add('nav-border');
     document.getElementById('nav-item-2').classList.remove('nav-border');
     document.getElementById('nav-item-4').classList.remove('nav-border');
-    document.getElementById('nav-item-1').classList.remove('nav-border');
+    document.getElementById('nav-item-1').classList.remove('nav-border'); 
 
 });
 
