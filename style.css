@@ -1,0 +1,190 @@
+*{
+  padding:0;
+  margin: 0;
+}
+
+/* -------------------TAGS----------------- */
+
+ul {
+  list-style-type: none;
+  margin: 1rem;
+  padding: 0.5rem;
+}
+
+li {
+  display: inline;
+  margin: auto 1rem;
+
+}
+
+hr{
+  height: 2px;
+  color:#ff9234;
+  background-color: #ff9234;
+  border-width:0;
+  margin: 1rem 0;
+}
+
+/* input{
+  padding:0.5rem;
+  width:100%;
+  margin:0 0.5rem 0.5rem 0.5rem;
+} */
+
+input[type=text],
+input[type=number],
+input[type=email] {
+  width: 90%;
+  height: 2em;
+  line-height: 2em;
+  font-size: 12px;
+  padding: 0.5rem;
+  margin:1rem;
+}
+
+label {
+  margin:1rem 0;
+  text-align:left;
+}
+
+option{
+  font-size: 1.5rem;
+}
+
+/*----------- ID'S------------------------*/
+
+#heading {
+  font-size: 2.5rem;
+}
+#name-field, #profile-photo-field, #date-of-birth, #phone-number,#email {
+  padding:1rem;
+  margin:1rem;
+}
+
+
+/* ------- CONTAINER----- */
+#address-content {
+  width:50%;
+  margin: 0.5rem auto;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+
+
+/*----------- ID'S  end------------------------*/
+
+/*-------------------CLASS-----------------*/
+
+.btn {
+  margin:1rem;
+  padding:0.5rem;
+  width:20%;
+  border-color: #ff9234;
+  background-color:#ff9234;
+}
+
+.btn:hover{
+ cursor: pointer;
+ border-radius: 2px;
+}
+
+.navbar {
+  margin:0;
+  background-color: #ff9234;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+.nav-items a{
+  text-decoration: none;
+}
+
+.nav-border{
+  border-bottom: 4px solid #1b6ca8;
+}
+
+
+.city-state {
+  display:flex;
+}
+
+/* ----- CONTAINER---- */
+#about-yourself-content {
+  width:50%;
+  margin: 0.5rem auto;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+#education {
+  width:50%;
+  margin: 0.5rem auto;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.table {
+  margin:2rem auto;
+
+}
+
+.table tr {
+  border:2px solid #eee;
+}
+
+.table thead tr th {
+  padding: 1rem;
+  width:auto;
+}
+
+.show-me{
+  display:block !important;
+}
+
+
+.table,
+.btn-preview,
+.btn-back {
+  display:none;
+}
+
+#address-content,
+#education,
+#about-yourself-content {
+  display:none;
+}
+
+#document {
+  margin: 1rem;
+  display: grid;
+  grid-template-rows:1fr;
+  grid-gap: 1rem;
+}
+/*-------------CLASS  end--------------------*/
+
+
+
+
+
+
+
+/* image */
+
+.image-preview {
+  width:300px;
+  min-height:100px;
+  border:2px solid #ddd;
+  margin-top: 1rem;
+  display:flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.image-preview__image{
+  display:none;
+  width:100%;
+}
